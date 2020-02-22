@@ -2,10 +2,14 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.7 (market_intelligence)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="market_intelligence" />
+    <orderEntry type="module" module-name="amm" />
+    <orderEntry type="module" module-name="Nvest_Analytics" />
   </component>
   <component name="TestRunnerService">
-    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+    <option name="projectConfiguration" value="pytest" />
+    <option name="PROJECT_TEST_RUNNER" value="pytest" />
   </component>
 </module>
